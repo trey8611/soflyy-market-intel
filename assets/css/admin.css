@@ -1,0 +1,44 @@
+.smi-tabs { display: flex; gap: 0; margin-bottom: 20px; border-bottom: 1px solid #c3c4c7; }
+.smi-tabs a { padding: 8px 16px; text-decoration: none; color: #2271b1; border: 1px solid transparent; border-bottom: none; margin-bottom: -1px; }
+.smi-tabs a.active { background: #fff; border-color: #c3c4c7; color: #1d2327; font-weight: 600; }
+.smi-chart-wrap { background: #fff; border: 1px solid #c3c4c7; padding: 16px; margin-bottom: 20px; }
+.smi-signal-table { width: 100%; border-collapse: collapse; }
+.smi-signal-table th, .smi-signal-table td { padding: 8px 12px; border: 1px solid #c3c4c7; text-align: left; }
+.smi-badge { display: inline-block; padding: 2px 8px; border-radius: 3px; font-size: 11px; font-weight: 600; }
+.smi-badge-green  { background: #d7f0d7; color: #1a6c1a; }
+.smi-badge-amber  { background: #fef3cd; color: #856404; }
+.smi-badge-red    { background: #fde8e8; color: #8b0000; }
+.smi-badge-high   { background: #dde8f5; color: #1a3a6c; }
+.smi-badge-medium { background: #e8f5dd; color: #2a5a0a; }
+.smi-badge-low    { background: #f5f0dd; color: #5a4a0a; }
+.smi-badge-manual { background: #f0e8f5; color: #4a1a6c; }
+.smi-badge-ground_truth { background: #dddddd; color: #111; }
+.smi-legend { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 16px; font-size: 12px; }
+/* ── Verdict card ────────────────────────────────────────────────────────── */
+.smi-verdict { border-radius: 4px; padding: 16px 20px; margin-bottom: 24px; border-left: 6px solid; }
+.smi-verdict-expanding   { background: #f0faf0; border-color: #00a32a; }
+.smi-verdict-contracting { background: #fdf0f0; border-color: #d63638; }
+.smi-verdict-stable      { background: #fffbf0; border-color: #dba617; }
+.smi-verdict-nodata      { background: #f6f7f7; border-color: #8c8f94; color: #3c434a; }
+.smi-verdict-header { display: flex; align-items: center; gap: 10px; margin-bottom: 14px; }
+.smi-verdict-icon  { font-size: 26px; font-weight: 800; line-height: 1; }
+.smi-verdict-expanding   .smi-verdict-icon { color: #00a32a; }
+.smi-verdict-contracting .smi-verdict-icon { color: #d63638; }
+.smi-verdict-stable      .smi-verdict-icon { color: #dba617; }
+.smi-verdict-label { font-size: 17px; color: #1d2327; }
+.smi-verdict-signals { width: 100%; border-collapse: collapse; font-size: 13px; }
+.smi-verdict-signals th,
+.smi-verdict-signals td  { padding: 6px 10px; border: 1px solid rgba(0,0,0,.1); vertical-align: middle; }
+.smi-verdict-signals th  { background: rgba(0,0,0,.04); font-weight: 600; text-align: left; }
+.smi-verdict-signals small { color: #888; font-size: 11px; margin-left: 4px; }
+.smi-vs-pos  { color: #00a32a; font-weight: 700; }
+.smi-vs-neg  { color: #d63638; font-weight: 700; }
+.smi-vs-flat { color: #646970; font-weight: 700; }
+.smi-vs-note { color: #888; font-size: 11px; font-style: italic; }
+/* ── End verdict card ───────────────────────────────────────────────────── */
+.smi-fieldset { background: #fff; border: 1px solid #c3c4c7; padding: 16px; margin-bottom: 20px; }
+.smi-fieldset legend { font-size: 14px; font-weight: 600; padding: 0 8px; }
+.smi-repeater-row { display: flex; gap: 8px; align-items: center; margin-bottom: 8px; }
+#smi-snippet-output { width: 100%; font-family: monospace; font-size: 12px; background: #1e1e1e; color: #d4d4d4; border: none; padding: 12px; }
+/* ── Export & Analysis tab ───────────────────────────────────────────────── */
+#smi-prompt-output { width: 100%; font-family: monospace; font-size: 12px; background: #1e1e1e; color: #d4d4d4; border: none; padding: 12px; box-sizing: border-box; resize: vertical; }
